@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the Google API key using st.secrets
-genai.configure(api_key=st.secrets["general"]["GOOGLE_API_KEY"])
+GOOGLE_API_KEY = "AIzaSyBikV0v1ltCUIsVoLProMqJgx88fXNr6T0"
 
 # Function to get chatbot response
 def get_bot_response(user_input):
